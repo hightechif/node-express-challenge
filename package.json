@@ -1,5 +1,5 @@
 {
-  "name": "node-express-boilerplate",
+  "name": "node-express-challenge",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -24,8 +24,5 @@
     "sequelize": "^6.6.5",
     "supertest": "^6.1.4",
     "swagger-ui-express": "^4.1.6"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
   }
 }

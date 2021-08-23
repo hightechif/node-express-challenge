@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "default_user",
-    "password": null,
-    "database": "database_development",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "localDB",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

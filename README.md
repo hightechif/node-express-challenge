@@ -1,15 +1,15 @@
-## Node.js Express App Boilerplate
+## Node.js Express App Challenge
 
 ### Description
-A Boilerplate for Express App.
+A NodeJS Express App portfolio.
 
 ### Instalation
 
 **1. Clone the source code**
 
 ```
-$ git clone https://github.com/ridhanf/node-express-boilerplate
-$ cd node-express-boilerplate
+$ git clone https://github.com/ridhanf/node-express-challenge
+$ cd node-express-challenge
 ```
 
 **2. Install Dependencies**
