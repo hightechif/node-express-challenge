@@ -6,7 +6,7 @@ var bookController = require('../controller/book.controller');
  * Book routes
  */
 router.get('/', bookController.getAll);
-// router.get('/:studentId', bookController.get);
+router.get('/:bookId', bookController.get);
 // router.post('/create', bookController.create);
 // router.get('/get-by-email', bookController.getByEmail);
 // router.get('/get-by-card-number', bookController.getByCardNumber);

@@ -6,7 +6,7 @@ var studentController = require('../controller/student.controller');
  * Student routes
  */
 router.get('/', studentController.getAll);
-// router.get('/:studentId', studentController.get);
+router.get('/:studentId', studentController.get);
 // router.post('/create', studentController.create);
 // router.get('/get-by-email', studentController.getByEmail);
 // router.get('/get-by-card-number', studentController.getByCardNumber);
