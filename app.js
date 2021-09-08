@@ -6,9 +6,8 @@ const logger = require('morgan');
 const cors = require('cors');
 
 // Import router
-const indexRouter = require('./routes/index');
-const apiRouter = require('./routes/api.routes');
-const usersRouter = require('./routes/users');
+const studentRouter = require('./routes/student.routes');
+const bookRouter = require('./routes/book.routes');
 
 // Import Middleware
 const errorMiddleware = require('./utils/error.middleware');
@@ -29,9 +28,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Use Router
-app.use('/', indexRouter);
-app.use('/api/v1', apiRouter);
-app.use('/users', usersRouter);
+app.use('/api/v1/students', studentRouter);
+app.use('/api/v1/books', bookRouter);
 
 // catch 404 and forward to error handler
 app.use(errorMiddleware.notFoundHandler);
