@@ -1,5 +1,4 @@
-var express = require('express');
-var router = express.Router();
+var router = require('express').Router();
 var bookController = require('../controller/book.controller');
 
 /**
